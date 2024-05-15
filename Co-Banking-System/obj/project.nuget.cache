@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "fewhMB98yeOctU5RKC5aJk6QuUlS4DTRz13c9S/AZKm3pJymzK1904iQhoTS9QTImFOSCFQxOdof+MLpSqrAfw==",
+  "dgSpecHash": "5u6FZB+RnqDjXW71E5I9qBZ8Xb6aj13qzFug3CMvHhABwpQHGrvCLR1Gtd6ct/0SEXpy132QYoCiCbFrauRHZQ==",
   "success": true,
   "projectFilePath": "/home/nathalie/winnie/Development/Airtel-MTNmomo-CBS/Co-Banking-System/Co-Banking-System.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/nathalie/.nuget/packages/system.net.http.json/8.0.0/system.net.http.json.8.0.0.nupkg.sha512",
+    "/home/nathalie/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
+    "/home/nathalie/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

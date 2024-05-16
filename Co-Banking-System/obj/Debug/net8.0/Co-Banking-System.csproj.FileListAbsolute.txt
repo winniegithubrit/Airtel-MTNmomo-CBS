@@ -25,3 +25,4 @@
 /home/nathalie/winnie/Development/Airtel-MTNmomo-CBS/Co-Banking-System/obj/Debug/net8.0/Co-Banking-System.genruntimeconfig.cache
 /home/nathalie/winnie/Development/Airtel-MTNmomo-CBS/Co-Banking-System/obj/Debug/net8.0/ref/Co-Banking-System.dll
 /home/nathalie/winnie/Development/Airtel-MTNmomo-CBS/Co-Banking-System/bin/Debug/net8.0/Co-Banking-System.staticwebassets.runtime.json
+/home/nathalie/winnie/Development/Airtel-MTNmomo-CBS/Co-Banking-System/obj/Debug/net8.0/Co-Banking-System.csproj.AssemblyReference.cache

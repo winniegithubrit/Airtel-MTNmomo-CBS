@@ -1,10 +1,10 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
+using Co_Banking_System.Models;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure; 
 
-namespace Co_Banking_System
+namespace Co_Banking_System.Models
 {
     public class Startup
     {
@@ -18,6 +18,11 @@ namespace Co_Banking_System
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Register the DbContext with the dependency injection container
+            services.AddDbContext<BankingSystemDbContext>(options =>
+                options.UseMySql(Configuration.GetConnectionString("DefaultConnection"),
+                    new MySqlServerVersion(new Version(8, 0, 23)))); // Remove CharSetBehavior method
+
             services.AddControllersWithViews();
         }
 

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace Co_Banking_System
+namespace Co_Banking_System.Models
 {
     public class Program
     {
@@ -15,8 +15,6 @@ namespace Co_Banking_System
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                    // Set the web root path to "wwwroot"
-                    webBuilder.UseWebRoot("wwwroot");
                 });
     }
 }

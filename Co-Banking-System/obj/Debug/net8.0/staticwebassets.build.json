@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "lTXGxe2XUG8IR++bzJRguhK2Au2AZQlLBTESH7jcxYs=",
+  "Hash": "38RGlEtgEhRRAbfipc1f+DR+DOKZCXQOeZ23eBRL+Lo=",
   "Source": "Co-Banking-System",
   "BasePath": "_content/Co-Banking-System",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Co-Banking-System/wwwroot",
+      "Source": "Co-Banking-System",
+      "ContentRoot": "/home/nathalie/winnie/Development/Airtel-MTNmomo-CBS/Co-Banking-System/wwwroot/",
+      "BasePath": "_content/Co-Banking-System",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

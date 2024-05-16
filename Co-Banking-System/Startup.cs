@@ -34,7 +34,9 @@ namespace Co_Banking_System
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            // Commented out the HTTPS redirection middleware
+            // app.UseHttpsRedirection();
+
             app.UseStaticFiles();
 
             app.UseRouting();
